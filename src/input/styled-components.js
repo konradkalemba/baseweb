@@ -321,7 +321,7 @@ function getInputColors($disabled, $isFocused, $error, colors) {
       color: colors.contentSecondary,
       caretColor: colors.contentPrimary,
       '::placeholder': {
-        color: colors.inputTextDisabled,
+        color: colors.inputPlaceholderDisabled,
       },
     };
   }
@@ -330,7 +330,7 @@ function getInputColors($disabled, $isFocused, $error, colors) {
     color: colors.contentPrimary,
     caretColor: colors.contentPrimary,
     '::placeholder': {
-      color: colors.contentSecondary,
+      color: colors.inputPlaceholder,
     },
   };
 }
